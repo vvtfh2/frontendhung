@@ -1,0 +1,360 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+htmt, body{
+	font-family: sans-serif;
+}
+
+header{
+  background-image: url("../img/images/banner.png");
+	width: 100%;
+	height: 1001px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .headertop {
+  width: 100%;
+  height: 141px;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 28px 100px;
+  display: block;
+}
+
+header .headertop .logo {
+  float: left;
+}
+header .headertop .menu {
+  padding-top: 10px;
+  float: right;
+  display: 
+}
+
+header .headermid {
+  width: 100%;
+  max-width: 1920px;
+  height: 860px;
+}
+header .headermid .heading {
+  float: left;
+  width: 100%;
+  max-width: 1545px;
+  height: 860px;
+  padding: 191px 375px;
+}
+
+header .headermid .heading .hd1 {
+  font-size: 24.339px;
+  font-family: "FiraSans";
+  color: rgb(105, 105, 105);
+  letter-spacing: 15px;
+  padding-top: 18px;
+}
+
+header .headermid .heading .hd2 {
+  width: 901px;
+  font-size: 90px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 28px;
+  line-height: 1;
+  color: rgb(51, 51, 51);
+  font-family: "CormorantGaramond";
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+header .headermid .heading .btn {
+  width: 200px;
+  height: 200px;
+  padding-top: 58px;
+}
+
+header .headermid .heading .btn1 {
+  width: 197px;
+  height: 48px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #333333;
+  text-transform: uppercase;
+}
+header .headermid .heading .a1 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: "FiraSans";
+  font-weight: bold;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+header .headermid .social {
+  width: 100%;
+  max-width: 360px;
+  height: 860px;
+  float: right;
+  text-decoration: none;
+  padding: 290px 145px;
+}
+header .headermid .social .as {
+  font-size: 24px;
+  font-family: "CormorantGaramond";
+  color: rgb(255, 255, 255);
+  text-align: right;
+  line-height: 1.667;
+  text-decoration: none;
+}
+
+.content {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 3447px;
+}
+.content .intro {
+  height: 410px;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.content .intro .intro1 {
+  width: 100%;
+  height: 81px;
+  padding: 0 384px;
+}
+.content .intro .intro1 .i1 {
+  width: 100%;
+  max-width: 384px;
+  height: 81px;
+  float: left;
+  text-align: center;
+}
+.content .intro .intro1 .itr1 {
+  font-size: 18px;
+  font-family: "CormorantGaramond";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.556;
+  padding-top: 20px;
+}
+
+.content .intro .intro1 .itr2 {
+  font-size: 14px;
+  font-family: "FiraSans";
+  color: rgb(171, 171, 171);
+  line-height: 2;
+}
+
+.content .intro .intro2 {
+  width: 100%;
+  max-width: 1920px;
+  height: 329px;
+  padding: 125px 575px;
+}
+
+.content .intro .intro2 .itr3 {
+  font-size: 30.5px;
+  font-family: "CormorantGaramond";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.412;
+  text-align: center;
+}
+.content .item {
+  width: 100%;
+  max-width: 1920px;
+  height: 1092px;
+  padding: 0 100px;
+}
+
+.content .item .anh1{
+  background-image: url(../img/images/item1.jpg);
+  width: 392px;
+  height: 520px;
+  float: left;
+  position: relative;
+}
+
+.content .item .anh1 .name1 {
+  font-size: 24px;
+  font-family: "FiraSans";
+  color: rgb(51, 51, 51);
+  line-height: 1.5;
+  position: absolute;
+  top: 414px;
+  padding-left: 110px;
+}
+
+.content .item .anh1 .g1 {
+  font-size: 24px;
+  font-family: "CormorantGaramond";
+  color: rgb(214, 186, 141);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  padding: 460px 155px;
+  position: absolute;
+}
+
+.content .item .anh2 {
+  background-image: url(../img/images/item2.jpg);
+  width: 832px;
+  height:  520px;
+  float: left;
+  position: relative;
+  left: 52px;
+  padding: 88px 28px;
+}
+
+.content .item .anh2 .ndanh2 {
+  width: 280px;
+  height: 340px;
+  right: 35px;
+  position: absolute;
+}
+
+.content .item .anh2 .ndanh2 .name2 {
+  letter-spacing: 4px;
+  font-size: 20px;
+  font-family: "FiraSans";
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  padding-top: 46px;
+}
+
+.content .item .anh2 .ndanh2 .g2{
+  padding-top: 25px;
+  font-size: 90px;
+  font-family: "CormorantGaramond";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-align: center;
+}
+
+.content .item .anh2 .ndanh2 .chu2 {
+  padding-top: 10px;
+  font-size: 23px;
+  font-family: "CormorantGaramond";
+  color: rgb(105, 105, 105);
+  text-align: center;
+}
+
+.content .item .anh2 .ndanh2 .s2 {
+  font-size: 15px;
+  color: rgb(105, 105, 105);
+  font-family: "FiraSans";
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.content .item .anh3 {
+  background-image: url(../img/images/item3.jpg);
+  width: 392px;
+  height: 522px;
+  float: right;
+  position: relative;
+  padding: 80px 50px;
+}
+.content .item .anh3 .chu3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-transform: uppercase;
+  position: absolute;
+  padding-top: 258px;
+  letter-spacing: 2px;
+}
+
+.content .item .anh3 .name3 {
+  font-size: 68px;
+  font-family: "CormorantGaramond";
+  color: rgb(214, 186, 141);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.content .item .anh4 {
+  background-image: url(../img/images/item4.jpg);
+  width: 392px;
+  height: 520px;
+  top: 52px;
+  float: left;
+  position: relative;
+}
+
+.content .item .anh4 .chu4 {
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.content .item .anh5 {
+  background-image: url(../img/images/item5.jpg);
+  float: left;
+  width: 392px;
+  height: 520px;
+  top: 52px;
+  left: 52px;
+  position: relative;
+  text-align: center;
+}
+
+.content .item .anh5 .name5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  padding-top: 414px;
+}
+
+.content .item .anh5 .g5 {
+  font-size: 24px;
+  color: rgb(214, 186, 141);
+  padding-top: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "CormorantGaramond";
+}
+
+.content .item .anh6 {
+  background-image: url(../img/images/item6.jpg);
+  width: 836px;
+  height: 520px;
+  float: right;
+  top: 52px;
+  position: relative;
+}
+
+.content .item .anh6 .ndanh6 {
+  width: 390px;
+  height: 520px;
+  padding: 150px 60px;
+  position: absolute;
+}
+
+.content .item .anh6 .ndanh6 .name6 {
+  font-size: 48px;
+  font-family: "CormorantGaramond";
+  color: rgb(51, 51, 51);
+  text-align: left;
+}
+
+.content .item .anh6 .ndanh6 .chu6 {
+  font-size: 18px;
+  font-family: "FiraSans";
+  color: rgb(105, 105, 105);
+  line-height: 1.714;
+  text-align: left;
+  font-weight: bold;
+  max-width: 220px;
+  padding-top: 20px;
+}
